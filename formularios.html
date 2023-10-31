@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Formulário de Atendimento ao Cliente</title>
+</head>
+<body>
+	<h1>Formulário de Atendimento ao Cliente</h1>
+	<p>Preencha as informações abaixo para avaliar nosso atendimento:</p>
+	<form action="#" method="post">
+		<label for="nome">Nome:</label>
+		<input type="text" id="nome" name="nome" required>
+
+		<label for="email">E-mail:</label>
+		<input type="email" id="email" name="email" required>
+
+		<label for="telefone">Telefone:</label>
+		<input type="tel" id="telefone" name="telefone" required>
+
+		<label for="cpf">CPF:</label>
+		<input type="text" id="cpf" name="cpf" required>
+
+		<label for="rg">RG:</label>
+		<input type="text" id="rg" name="rg" required>
+
+		<label for="pergunta1">Pergunta 1:</label>
+		<input type="text" id="pergunta1" name="pergunta1" required>
+
+		<label for="pergunta2">Pergunta 2:</label>
+		<input type="text" id="pergunta2" name="pergunta2" required>
+
+		<label for="pergunta3">Pergunta 3:</label>
+		<input type="text" id="pergunta3" name="pergunta3" required>
+
+		<label for="avaliacao">Avaliação:</label>
+		<select id="avaliacao" name="avaliacao" required>
+			<option value="">Selecione uma opção</option>
+			<option value="excelente">Excelente</option>
+			<option value="bom">Bom</option>
+			<option value="regular">Regular</option>
+			<option value="ruim">Ruim</option>
+			<option value="péssimo">Péssimo</option>
+		</select>
+
+		<label for="comentario">Comentário:</label>
+		<textarea id="comentario" name="comentario"></textarea>
+
+		<input type="submit" value="Enviar">
+	</form>
+</body>
+</html>
